@@ -6,7 +6,7 @@
     <h1>タスク追加</h1>
     
     <div class="row">
-        <div class="col-6">
+        <div class="col-sm-6">
             {!! Form::model($task, ['route' => 'tasks.store']) !!}
             
                 <div class="form-group">
